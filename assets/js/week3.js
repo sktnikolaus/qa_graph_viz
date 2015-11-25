@@ -13727,7 +13727,7 @@ nodes = names_index.map(function(d,i){
     } else {
       var no = 1
     }
-    return { "name":d, "group":no }; 
+    return { "name":d.substring(2,d.length), "group":no }; 
 });
 
 // links
